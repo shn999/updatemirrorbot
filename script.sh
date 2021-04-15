@@ -1,11 +1,12 @@
 #Update script of UserBot by @marshmello61
 #Some fixes by @RoyalBoy69
+#Powered by @sashn9
 
 
-repo="USERGE-X"
+repo="magneto-python-aria"
 rm -rf ${repo}
 
-echo "You're running the USERGE-X Updater script"
+echo "You're running the magneto-python-aria updater script"
 echo " "
 # Get username of user
 echo -n "Enter your GitHub username: "
@@ -13,7 +14,7 @@ read userName
 echo " "
 
 # Check if user has forked or has the same repo name
-echo -n "Have you forked USERGE-X from code-rgb or has the same repo name i.e. USERGE-X? [y/n]: "
+echo -n "Have you forked magneto-python-aria from magneto261290 or has the same repo name i.e. magneto-python-aria? [y/n]: "
 read fork
 echo " "
 
@@ -32,10 +33,10 @@ else
 fi
 
 echo " "
-echo "Updating your USERGE-X"
-git pull https://github.com/code-rgb/USERGE-X.git
+echo "Updating your magneto-python-aria repo"
+git pull https://github.com/magneto261290/magneto-python-aria.git
 git diff
-git commit -m "😎"
+git commit -m "😎😎"
 git push
 echo " "
 echo "Updated"
